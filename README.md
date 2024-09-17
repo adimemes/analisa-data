@@ -18,7 +18,26 @@ dan juga membuat perbandingan penyewaan sepeda di hari libur, kerja dan weekend.
 dalam project yang saya buat untuk pertanyaan ini sudah saya jawab pada file Notebook.ipnyb <br>
 dengan menambahkan visual yang bisa dibaca oleh orang lain.
 
-## Cara menjalankan Dashboard
+## Cara menjalankan Dashboard Streamlit
+
+### (Pada Komputer Local)
+Instal Streamlit pada komputer
+```
+pip install streamlit
+```
+
+Buka terminal pada tempat penyimpanan file dashboard
+
+```
+python -m streamlit run dashboard.py
+```
+
+### (Untuk yang sudah di deploy)
+<ol>
+    <li>buka file Url.txt</li>
+    <li>kemudaian klik link yang ada dalam file</li>
+</ol>
+
 
 Disini saya juga membuat sebuah dashboard yang berisikan hasil study kasus yang saya buat. <br>
 saya membuat dashbiar tersebut dengan tools yaitu streamlit <br>
