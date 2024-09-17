@@ -40,7 +40,7 @@ def create_rfm_df(df):
     
     return rfm_df
 
-all_df = pd.read_csv("data_sepeda.csv")
+all_df = pd.read_csv("dashboard/data_Sepeda.csv")
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
 all_df.reset_index(inplace=True)
